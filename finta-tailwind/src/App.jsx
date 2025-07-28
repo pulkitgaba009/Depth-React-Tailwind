@@ -3,11 +3,11 @@ import Navbar from "./Components/NavBar";
 
 function App() {
   return (
-    // <div className="flex flex-col items-center h-screen relative bg-blue-50">
-      <Container className="">
+    <div className="min-h-screen relative bg-blue-50"> 
+      <Container>
         <Navbar />
       </Container>
-    // </div>
+    </div>
   );
 }
 
