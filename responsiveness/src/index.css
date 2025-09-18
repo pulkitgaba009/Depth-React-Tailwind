@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* custum theme */
+@theme{
+    --breakpoint-pg:690px;
+}
