@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import User from "./components/User";
+import GitHub from "./components/GitHub";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/user/:userid" element={<User/>} />
+        <Route path="/gitHub" element={<GitHub/>} />
       </Routes>
       <Footer />
     </>
